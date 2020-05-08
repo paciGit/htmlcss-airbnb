@@ -1,0 +1,57 @@
+/* Corpo principale */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+/* I vari background con testo */
+
+.background1, .background2, .background3 {
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-attachment: fixed;
+  border: 5px solid black;
+  width: auto;
+  height: 100vh;
+  margin: auto;
+}
+
+.background1 {
+  background-image: url('../img/Squillace.jpg');
+}
+
+.background2 {
+  background-image: url('../img/Reggio.jpg');
+}
+
+.background3 {
+  background-image: url('../img/Catanzaro.jpg');
+}
+
+.layout {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.2;
+}
+
+.text {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  text-shadow:1px 1px 3px black;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.text.Squillace, .text.Reggio, .text.Catanzaro {
+  color: #ffffff;
+}
